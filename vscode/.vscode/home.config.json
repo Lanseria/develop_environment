@@ -1,46 +1,46 @@
 {
-    // 通过使用鼠标滚轮同时按住 Ctrl 可缩放编辑器的字体
-    "editor.mouseWheelZoom": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
-    "editor.fontSize": 16,
-    "editor.tabSize": 2,
-    "editor.wordWrap": "on",
-    "editor.fontFamily": "Consolas, '微软雅黑', monospace",
-    "extensions.autoUpdate": false,
-    "extensions.ignoreRecommendations": false,
-    "files.autoSave": "off",
-    "git.autofetch": true,
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "sublimeTextKeymap.promptV3Features": true,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "typescript.locale": "zh-CN",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
-    "update.channel": "none",
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressUpdateNotice": true,
-        "suppressWelcomeNotice": false
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Default Dark+",
-    "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {}
-    },
-    "workbench.colorCustomizations": {
-        "[Default Dark+]": {
-            "tab.hoverBackground": "#337ab7",
-            "tab.unfocusedHoverBackground": "#4d90fe"
-        }
+  "editor.mouseWheelZoom": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Consolas, '微软雅黑', monospace",
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": false,
+  "files.autoSave": "off",
+  "git.autofetch": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "sublimeTextKeymap.promptV3Features": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.locale": "zh-CN",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "update.channel": "none",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {}
+  },
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "tab.hoverBackground": "#337ab7",
+      "tab.unfocusedHoverBackground": "#4d90fe"
     }
+  }
 }

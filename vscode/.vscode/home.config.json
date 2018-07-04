@@ -1,4 +1,9 @@
 {
+  "workbench.startupEditor": "newUntitledFile",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true
+  },
   "editor.mouseWheelZoom": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
@@ -13,25 +18,14 @@
   "files.autoSave": "off",
   "git.autofetch": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "sublimeTextKeymap.promptV3Features": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.locale": "zh-CN",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0,
   "update.channel": "none",
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressUpdateNotice": true,
-    "suppressWelcomeNotice": false
-  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Default Dark+",
   "editor.tokenColorCustomizations": {
@@ -43,4 +37,5 @@
       "tab.unfocusedHoverBackground": "#4d90fe"
     }
   }
+}
 }

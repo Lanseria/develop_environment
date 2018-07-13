@@ -64,5 +64,12 @@
 		],
 		"description": "TS & JS University Forin"
 	},
-
+	"JS & TS IMPORT": {
+		"scope": "javascript,typescript",
+		"prefix": "import",
+		"body": [
+			"import '$2' from '$1'",
+			"$3"
+		]
+	}
 }

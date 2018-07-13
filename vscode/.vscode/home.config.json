@@ -7,7 +7,6 @@
   "editor.mouseWheelZoom": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
@@ -36,6 +35,9 @@
       "tab.hoverBackground": "#337ab7",
       "tab.unfocusedHoverBackground": "#4d90fe"
     }
+  },
+  "files.associations": {
+    "*.wxc": "vue",
+    "*.wxp": "vue"
   }
-}
 }

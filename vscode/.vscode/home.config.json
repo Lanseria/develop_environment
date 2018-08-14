@@ -14,9 +14,29 @@
   "editor.fontFamily": "Consolas, '微软雅黑', monospace",
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
   "files.autoSave": "off",
   "git.autofetch": true,
+  "java.autobuild.enabled": false,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
@@ -38,6 +58,7 @@
   },
   "files.associations": {
     "*.wxc": "vue",
-    "*.wxp": "vue"
+    "*.wxp": "vue",
+    "*.wxa": "vue"
   }
 }
